@@ -1,3 +1,7 @@
 vpass
+.vpass
 venv/
 .idea/
+roles/external/
+*.retry
+.vagrant/

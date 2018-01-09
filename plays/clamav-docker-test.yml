@@ -1,0 +1,13 @@
+---
+- hosts: clamav-docker
+  become: True
+
+  pre_tasks:
+    - name: Install epel repositories
+      yum:
+        name: epel-release
+        state: latest
+
+  roles:
+    - clamav
+    - docker
