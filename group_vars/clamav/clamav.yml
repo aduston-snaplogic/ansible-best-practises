@@ -1,7 +1,6 @@
 # clamav_daemon: 'clamav-daemon'
-clamav_daemon_state: stopped
-clamav_daemon_enabled: no
-
+clamav_daemon_state: started
+clamav_daemon_enabled: yes
 # clamav_freshclam_daemon: 'clamav-freshclam'
-clamav_freshclam_daemon_state: stopped
-clamav_freshclam_daemon_enabled: no
+clamav_freshclam_daemon_state: started
+clamav_freshclam_daemon_enabled: yes
